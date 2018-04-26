@@ -43,7 +43,9 @@
                             <div class="form-group">
                                 <button type="submit" class="btn btn-default btn-form1">Так</button>
                                 <button type="submit" class="btn btn-default btn-form2">Ні</button>
+                                <button type="submit" class="btn btn-default btn-form3">Результаты</button>
 
+    
                             </div>
                         </form>
                     </div>

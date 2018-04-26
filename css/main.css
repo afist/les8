@@ -184,6 +184,10 @@ a:hover,a:focus{
 .btn-main{
     width: 100%;
 }
+.btn-form3{
+    display: none;
+    margin: 0 auto!important;
+}
 .form-horizontal .forgot-pass .btn:hover{ color: #eec111; }
 @media only screen and (max-width: 479px){
     .tab{ padding: 40px 20px; }

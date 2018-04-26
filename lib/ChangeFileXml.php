@@ -10,19 +10,19 @@ interface DataProcessing
 
 class ChangeFileJson implements DataProcessing
 {
-    private $_file_way;
+    private $fileWay;
 
-    public function __construct($file_way)
+    public function __construct($fileWay)
     {
-        $this->_file_way = $file_way;
+        $this->fileWay = $fileWay;
     }
 
     public function read():array
     {
-        return json_decode(file_get_contents($this->_file_way), true);
+        return json_decode(file_get_contents($this->fileway), true);
     }
     public function write(array $arr):void
     {
-        file_put_contents($this->_file_way, json_encode($arr, true));
+        file_put_contents($this->fileWay, json_encode($arr, true));
     }
 }
