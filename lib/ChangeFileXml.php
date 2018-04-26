@@ -8,7 +8,7 @@ interface DataProcessing
     public function write(array $data):void;
 }
 
-class ChangeFileJson implements DataProcessing
+class ChangeFileXml implements DataProcessing
 {
     private $fileWay;
 
@@ -19,10 +19,13 @@ class ChangeFileJson implements DataProcessing
 
     public function read():array
     {
-        return json_decode(file_get_contents($this->fileway), true);
+        return simplexml_load_file(file_get_contents($this->fileway));
     }
     public function write(array $arr):void
     {
         file_put_contents($this->fileWay, json_encode($arr, true));
     }
 }
+
+$a = new ChangeFileXml('1.xml');
+echo $a->read();
