@@ -37,7 +37,7 @@
                         <form class="form-horizontal" id="form" style="display: none;">
 
                             <div class="form-group">
-                                <div class="form-control" id="question">aaaa?</div>
+                                <div class="form-control" id="question"></div>
                             </div>
 
                             <div class="form-group">

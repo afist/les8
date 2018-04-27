@@ -9,7 +9,6 @@ class FormCheck
     {
         $this->array = $array;
     }
-
     private function checkInput($data)
     {
         $data = trim($data);
@@ -26,7 +25,7 @@ class FormCheck
 
     public function checkNumeric($amountFrom)
     {
-        if (!preg_match("|^[\d]+$|", $amount_from)) {
+        if (!preg_match("|^[\d]+$|", $amountFrom)) {
             $amountFrom = 0;
         }
 

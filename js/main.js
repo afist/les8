@@ -26,10 +26,7 @@ $(".btn-form1").click(function(event){
         data: serializedData,
         success(a){
             $('#question').html(a);
-            if (a.substr(0, 9) == "Pravilnux") {
-                $(".btn-default").css("display","none");
-                $(".btn-form3").css("display","block");
-            }
+            checkText(a);
 
         }
     });
@@ -45,12 +42,7 @@ $(".btn-form2").click(function(event){
         data: serializedData,
         success(a){
             $('#question').html(a);
-            if (a.substr(0, 9) == "Pravilnux") {
-                $(".btn-default").css("display","none");
-                $(".btn-form3").css("display","block");
-
-            }
-
+            checkText(a);
         }
     });
 
@@ -69,3 +61,9 @@ $(".btn-form3").click(function(event){
     });
 
 })
+function checkText(a){
+    if (a.substr(0, 9) == "Pravilnux") {
+        $(".btn-default").css("display","none");
+        $(".btn-form3").css("display","block");
+    }
+}

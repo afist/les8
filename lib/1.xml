@@ -1,26 +1,30 @@
-<?xml version='1.0' standalone='yes'?>
-<movies>
- <movie>
-  <title>PHP: Появление Парсера</title>
-  <characters>
-   <character>
-    <name>Ms. Coder</name>
-    <actor>Onlivia Actora</actor>
-   </character>
-   <character>
-    <name>Mr. Coder</name>
-    <actor>El Act&#211;r</actor>
-   </character>
-  </characters>
-  <plot>
-   Таким образом, это язык. Это все равно язык программирования. Или
-   это скриптовый язык? Все раскрывается в этом документальном фильме,
-   похожем на фильм ужасов.
-  </plot>
-  <great-lines>
-   <line>PHP решает все мои проблемы в вебе</line>
-  </great-lines>
-  <rating type="thumbs">7</rating>
-  <rating type="stars">5</rating>
- </movie>
-</movies>
+<exchange>
+<currency>
+<qestion>Ты спишь?</qestion>
+<id>a1</id>
+</currency>
+<currency>
+<qestion>Правда ли, что гепард быстрейший из всех наземных млекопитающих?</qestion>
+<id>a3</id>
+</currency>
+<currency>
+<qestion>Правда ли что, человеческое тело состоит на 20% из воды?</qestion>
+<id>a4</id>
+</currency>
+<currency>
+<qestion>Правда ли, что возраст дерева можно узнать по его высоте?</qestion>
+<id>a5</id>
+</currency>
+<currency>
+<qestion>Правда ли, что тихий океан является самым маленьким океаном планеты?</qestion>
+<id>a2</id>
+</currency>
+<currency>
+<qestion>Правда ли, что папоротники одни из древнейших растений?</qestion>
+<id>a6</id>
+</currency>
+<currency>
+<qestion>Правда ли, что зубы у акулы регулярно сменяются?</qestion>
+<id>a7</id>
+</currency>
+</exchange>
